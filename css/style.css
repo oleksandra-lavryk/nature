@@ -72,11 +72,7 @@ body {
     letter-spacing: 3.5rem;
     animation-name: moveInLeft;
     animation-duration: 1.5s;
-    animation-timing-function: ease-out;
-    /*
-    animation-delay:3s;
-    animation-itration-count:3;
-    */ }
+    animation-timing-function: ease-out; }
     @media (max-width: 37.5em) {
       .heading-primary--main {
         letter-spacing: 1rem;
@@ -98,6 +94,7 @@ body {
   display: inline-block;
   background-image: linear-gradient(to right, #7ed56f, #28b485);
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
   letter-spacing: 2px;
   transition: all 0.2s; }

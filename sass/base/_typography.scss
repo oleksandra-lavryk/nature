@@ -24,10 +24,6 @@ body {
       letter-spacing: 1rem;
       font-size: 5rem;
     }
-    /*
-    animation-delay:3s;
-    animation-itration-count:3;
-    */
   }
 
   &--sub {
@@ -49,6 +45,7 @@ body {
   display: inline-block;
   background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
   letter-spacing: 2px;
   transition: all 0.2s;

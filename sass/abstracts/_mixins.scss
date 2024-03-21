@@ -11,23 +11,9 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-//media query manager
-//0-600 phone
-//600-900 tablet portrait
-//900-1200 tablet landscape
-//1200-1800 - normal styles(our normal)
-//1800 - big desktop
-// @mixin respond-phone {
-//   @media (max-width: 600px) {
-//     content
-//   };
-// }
-//breakpoint argument choices
-//-phone
-//-tab-port
-//-tab-land
-//-big-desktop
+
 //1em=16px
+
 @mixin respond($breakpoint) {
   @if $breakpoint == phone {
     @media (max-width: 37.5em) {
